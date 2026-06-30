@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etNgrokToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#FFFFFF"
+        android:hint="Enter The ngrok Authtoken"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:borderRadius="12dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnSaveToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNgrokToken"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#43e97b"
+        android:text="SAVE TOKEN"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnStartStop"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ff512f"
+        android:text="START"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#FFFFFF"
+        android:text="تفعيل صلاحية إمكانية الوصول"
+        android:textColor="#4facfe"
+        android:textStyle="bold"/>
+</RelativeLayout>
+
